@@ -1,0 +1,206 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 48637 entries, 0 to 48636
+Data columns (total 12 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   id_order          48634 non-null  float64
+ 1   cod_order         48633 non-null  object 
+ 2   product           48633 non-null  float64
+ 3   qty               48633 non-null  float64
+ 4   date_added        48633 non-null  object 
+ 5   id_client         48633 non-null  float64
+ 6   date_ship         48633 non-null  object 
+ 7   date_del          48633 non-null  object 
+ 8   Product name      48633 non-null  object 
+ 9   Subcategory name  48633 non-null  object 
+ 10  Category name     48633 non-null  object 
+ 11  Color             48633 non-null  object 
+dtypes: float64(4), object(8)
+memory usage: 4.5+ MB
+None
+Missing values:
+ id_order            3
+cod_order           4
+product             4
+qty                 4
+date_added          4
+id_client           4
+date_ship           4
+date_del            4
+Product name        4
+Subcategory name    4
+Category name       4
+Color               4
+dtype: int64
+Missing values:
+ id_order            0
+cod_order           0
+product             0
+qty                 0
+date_added          0
+id_client           0
+date_ship           0
+date_del            0
+Product name        0
+Subcategory name    0
+Category name       0
+Color               0
+dtype: int64
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 48633 entries, 0 to 48632
+Data columns (total 12 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   id_order          48633 non-null  float64
+ 1   cod_order         48633 non-null  object 
+ 2   product           48633 non-null  float64
+ 3   qty               48633 non-null  float64
+ 4   date_added        48633 non-null  object 
+ 5   id_client         48633 non-null  float64
+ 6   date_ship         48633 non-null  object 
+ 7   date_del          48633 non-null  object 
+ 8   Product_name      48633 non-null  object 
+ 9   Subcategory_name  48633 non-null  object 
+ 10  Category_name     48633 non-null  object 
+ 11  Color             48633 non-null  object 
+dtypes: float64(4), object(8)
+memory usage: 4.8+ MB
+None
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 48633 entries, 0 to 48632
+Data columns (total 12 columns):
+ #   Column            Non-Null Count  Dtype   
+---  ------            --------------  -----   
+ 0   id_order          48633 non-null  float64 
+ 1   cod_order         48633 non-null  object  
+ 2   product           48633 non-null  float64 
+ 3   qty               48633 non-null  float64 
+ 4   date_added        48633 non-null  object  
+ 5   id_client         48633 non-null  float64 
+ 6   date_ship         48633 non-null  object  
+ 7   date_del          48633 non-null  object  
+ 8   Product_name      48633 non-null  category
+ 9   Subcategory_name  48633 non-null  category
+ 10  Category_name     48633 non-null  category
+ 11  Color             48633 non-null  category
+dtypes: category(4), float64(4), object(4)
+memory usage: 3.6+ MB
+None
+[False  True False ... False False False]
+   id_order        cod_order  product  ...  Category_name       Color  Product_index
+1     806.0  VICC180520-1-12   3141.0  ...          roses  light_pink              1
+
+[1 rows x 13 columns]
+   id_order  ...                           combined_attributes
+0     806.0  ...           quicksand standard_rose roses cream
+1     806.0  ...   pink_mondial standard_rose roses light_pink
+2     806.0  ...             mondial standard_rose roses white
+3     806.0  ...  lavender_irischka spray_roses roses lavender
+4     806.0  ...        playa_blanca standard_rose roses white
+
+[5 rows x 14 columns]
+0
+[('playa_blanca', 0.75), ('vendela', 0.75), ('tibet', 0.75), ('proud', 0.75), ('moonstone', 0.75), ('inocencia', 0.75), ('polar_star', 0.75), ('quicksand', 0.5), ('pink_mondial', 0.5), ('deep_purple', 0.5)]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 48637 entries, 0 to 48636
+Data columns (total 12 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   id_order          48634 non-null  float64
+ 1   cod_order         48633 non-null  object 
+ 2   product           48633 non-null  float64
+ 3   qty               48633 non-null  float64
+ 4   date_added        48633 non-null  object 
+ 5   id_client         48633 non-null  float64
+ 6   date_ship         48633 non-null  object 
+ 7   date_del          48633 non-null  object 
+ 8   Product name      48633 non-null  object 
+ 9   Subcategory name  48633 non-null  object 
+ 10  Category name     48633 non-null  object 
+ 11  Color             48633 non-null  object 
+dtypes: float64(4), object(8)
+memory usage: 4.5+ MB
+None
+Missing values:
+ id_order            3
+cod_order           4
+product             4
+qty                 4
+date_added          4
+id_client           4
+date_ship           4
+date_del            4
+Product name        4
+Subcategory name    4
+Category name       4
+Color               4
+dtype: int64
+Missing values:
+ id_order            0
+cod_order           0
+product             0
+qty                 0
+date_added          0
+id_client           0
+date_ship           0
+date_del            0
+Product name        0
+Subcategory name    0
+Category name       0
+Color               0
+dtype: int64
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 48633 entries, 0 to 48632
+Data columns (total 12 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   id_order          48633 non-null  float64
+ 1   cod_order         48633 non-null  object 
+ 2   product           48633 non-null  float64
+ 3   qty               48633 non-null  float64
+ 4   date_added        48633 non-null  object 
+ 5   id_client         48633 non-null  float64
+ 6   date_ship         48633 non-null  object 
+ 7   date_del          48633 non-null  object 
+ 8   Product_name      48633 non-null  object 
+ 9   Subcategory_name  48633 non-null  object 
+ 10  Category_name     48633 non-null  object 
+ 11  Color             48633 non-null  object 
+dtypes: float64(4), object(8)
+memory usage: 4.8+ MB
+None
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 48633 entries, 0 to 48632
+Data columns (total 12 columns):
+ #   Column            Non-Null Count  Dtype   
+---  ------            --------------  -----   
+ 0   id_order          48633 non-null  float64 
+ 1   cod_order         48633 non-null  object  
+ 2   product           48633 non-null  float64 
+ 3   qty               48633 non-null  float64 
+ 4   date_added        48633 non-null  object  
+ 5   id_client         48633 non-null  float64 
+ 6   date_ship         48633 non-null  object  
+ 7   date_del          48633 non-null  object  
+ 8   Product_name      48633 non-null  category
+ 9   Subcategory_name  48633 non-null  category
+ 10  Category_name     48633 non-null  category
+ 11  Color             48633 non-null  category
+dtypes: category(4), float64(4), object(4)
+memory usage: 3.6+ MB
+None
+[False  True False ... False False False]
+   id_order        cod_order  product  ...  Category_name       Color  Product_index
+1     806.0  VICC180520-1-12   3141.0  ...          roses  light_pink              1
+
+[1 rows x 13 columns]
+   id_order  ...                           combined_attributes
+0     806.0  ...           quicksand standard_rose roses cream
+1     806.0  ...   pink_mondial standard_rose roses light_pink
+2     806.0  ...             mondial standard_rose roses white
+3     806.0  ...  lavender_irischka spray_roses roses lavender
+4     806.0  ...        playa_blanca standard_rose roses white
+
+[5 rows x 14 columns]
+0
+[('sahara', 0.75), ('pompeii', 0.75), ('sandy', 0.75), ('pink_mondial', 0.5), ('mondial', 0.5), ('playa_blanca', 0.5), ('deep_purple', 0.5), ('explorer', 0.5), ('shimmer', 0.5), ('hot_explorer', 0.5)]
